@@ -13,9 +13,10 @@
 &nbsp;
 
 #### Why this fork exists?
-It seems there is no active maintenance of the original repository. This fork is intended to fix.
+It seems that the original repository is no longer actively maintained. This fork is intended to fix the following:
+
 * remove deprecated brotli compression to improve performance
-* [fix wrong multiple matches](https://github.com/siddharthkp/bundlesize/issues/383)
+* [fix fuzzy matching logic to not include paths that match other patterns](https://github.com/siddharthkp/bundlesize/issues/383)
 
 #### Setup
 
