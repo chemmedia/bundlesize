@@ -104,7 +104,7 @@ test.skip('10. bug repro: bundlesize should dedup files', t => {
   t.snapshot(stdout)
 })
 
-test('11. bug repro: files should not be matched twice, order should matters (https://github.com/siddharthkp/bundlesize/issues/383)', t => {
+test('11. bug repro: files should not be matched twice, order should matter (https://github.com/siddharthkp/bundlesize/issues/383)', t => {
   const { stdout, exitCode } = run(12)
   t.is(exitCode, 0) // this is failing
   t.snapshot(stdout)
